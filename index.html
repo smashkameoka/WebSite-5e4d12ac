@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>スマッシュ大井亀岡 | 亀岡市大井町で卓球しよう！</title>
+    <meta name="description" content="2026年度の新メンバー募集中！京都府亀岡市大井町で活動する卓球クラブ「スマッシュ大井亀岡」です。初心者、ブランクのある方大歓迎！毎週土曜日の朝、大井小学校体育館で楽しく活動中。">
+    
+    <link rel="canonical" href="http://www.eonet.ne.jp/~smash-kameoka/">
+
+    <link rel="icon" href="./images/pingpong.png">
+    <link rel="apple-touch-icon" href="./images/pingpong.png">
+
+    <meta property="og:site_name" content="スマッシュ大井亀岡">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.eonet.ne.jp/~smash-kameoka/">
+    <meta property="og:title" content="スマッシュ大井亀岡 | 亀岡市大井町で卓球しよう！">
+    <meta property="og:description" content="2026年度の新メンバー募集中！京都府亀岡市大井町で活動する卓球クラブです。">
+    
+    <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "スマッシュ大井亀岡",
+      "alternateName" : "Smash Ooi Kameoka",
+      "url" : "http://www.eonet.ne.jp/~smash-kameoka/"
+    }
+    </script>
+
+    <style>
+        /* ポップなチラシ風：配色とタイポグラフィ */
+        :root {
+            --primary-color: #ff4757; /* 鮮やかな赤 */
+            --secondary-color: #1e90ff; /* 明るいブルー */
+            --accent-color: #ffa502; /* 元気なオレンジ */
+            --text-color: #2f3542;
+            --bg-color: #fffaf0; /* 温かみのあるクリーム色 */
+        }
+
+        body {
+            font-family: 'Arial Rounded MT Bold', 'Helvetica Neue', Arial, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            background-image: radial-gradient(#e6e6e6 1px, transparent 1px);
+            background-size: 20px 20px; /* ドット背景でチラシ感 */
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        /* ヘッダー：インパクト重視 */
+        .hero {
+            background: linear-gradient(135deg, var(--secondary-color), #004d99);
+            color: white;
+            text-align: center;
+            padding: 80px 20px 100px;
+            position: relative;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+            margin-bottom: -40px;
+        }
+
+        .recruit-badge {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 25px;
+            font-weight: bold;
+            font-size: 1.8rem;
+            transform: rotate(-8deg) scale(1.1);
+            box-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+            border-radius: 5px;
+            margin-bottom: 30px;
+            border: 3px solid white;
+        }
+
+        .hero h1 {
+            font-size: 3.2rem;
+            margin: 10px 0;
+            line-height: 1.1;
+            text-shadow: 4px 4px 0px var(--text-color);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            font-weight: bold;
+            background-color: rgba(255,255,255,0.2);
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 50px;
+            margin-top: 15px;
+        }
+
+        /* アクセスバッジ */
+        .access-badge {
+            display: inline-block;
+            background-color: white;
+            color: var(--primary-color);
+            padding: 5px 25px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.3rem;
+            margin-top: 15px;
+            box-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+            border: 3px solid var(--primary-color);
+        }
+
+        /* お知らせ：マステ風 */
+        .important-notice {
+            background-color: var(--accent-color);
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            max-width: 550px;
+            margin: 0 auto 40px;
+            position: relative;
+            transform: rotate(1deg);
+            box-shadow: 3px 3px 0px rgba(0,0,0,0.1);
+            font-weight: bold;
+        }
+        .important-notice::before {
+            content: '';
+            position: absolute;
+            top: -10px; left: 50%;
+            transform: translateX(-50%);
+            width: 120px; height: 30px;
+            background-color: rgba(255,255,255,0.4);
+        }
+
+        /* キャッチフレーズ：巨大な吹き出し */
+        .catchphrase {
+            background-color: white;
+            padding: 50px 20px;
+            text-align: center;
+            border-radius: 30px;
+            box-shadow: 0 10px 0px #ddd;
+            max-width: 850px;
+            margin: 0 auto 60px;
+            position: relative;
+            border: 8px solid var(--secondary-color);
+        }
+
+        .catchphrase h2 {
+            color: var(--primary-color);
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+
+        .catchphrase p {
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+        /* 3つの特徴 */
+        .points {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            max-width: 1000px;
+            margin: 0 auto 60px;
+            padding: 0 20px;
+        }
+
+        .point-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            flex: 1 1 280px;
+            max-width: 300px;
+            box-shadow: 6px 6px 0px rgba(0,0,0,0.05);
+            border: 4px solid var(--text-color);
+        }
+        .point-card:nth-child(1) { transform: rotate(-2deg); border-color: var(--primary-color); }
+        .point-card:nth-child(2) { transform: rotate(2deg); border-color: var(--secondary-color); }
+        .point-card:nth-child(3) { transform: rotate(-1deg); border-color: var(--accent-color); }
+
+        .point-card h3 {
+            margin-top: 0;
+            font-size: 1.4rem;
+            background-color: var(--text-color);
+            color: white;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+        .point-card:nth-child(1) h3 { background-color: var(--primary-color); }
+        .point-card:nth-child(2) h3 { background-color: var(--secondary-color); }
+        .point-card:nth-child(3) h3 { background-color: var(--accent-color); }
+
+        /* メインコンテンツ */
+        .content-section {
+            background-color: white;
+            padding: 40px;
+            max-width: 850px;
+            margin: 40px auto;
+            border-radius: 20px;
+            border: 6px dashed var(--secondary-color);
+        }
+
+        /* 練習風景ポラロイド風 */
+        .photo-frame {
+            background-color: white;
+            padding: 15px 15px 60px 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            transform: rotate(-3deg);
+            max-width: 450px;
+            margin: 0 auto 40px;
+            border: 1px solid #eee;
+            position: relative;
+        }
+        .photo-frame img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .photo-frame::after {
+            content: '練習風景！';
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: bold;
+            font-size: 1.4rem;
+            color: #444;
+            letter-spacing: 2px;
+        }
+
+        /* 詳細テーブル */
+        .info-box {
+            background-color: #f0f8ff;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px 10px;
+            border-bottom: 2px solid white;
+            text-align: left;
+        }
+        th {
+            width: 30%;
+            color: var(--secondary-color);
+            font-size: 1.1rem;
+        }
+        td { font-weight: bold; }
+
+        /* マップエリア */
+        .map-container {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 2px dashed #b3d4fc;
+            text-align: center;
+        }
+        .map-container iframe {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 100%;
+            border: 2px solid white;
+        }
+
+        /* ボタン */
+        .cta-section {
+            text-align: center;
+            padding: 100px 20px;
+            background-color: var(--primary-color);
+            color: white;
+            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 25px 50px;
+            font-size: 2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 100px;
+            box-shadow: 0 8px 0px #cc8400;
+            border: 4px solid white;
+            transition: 0.2s;
+        }
+        .cta-button:active {
+            transform: translateY(6px);
+            box-shadow: 0 2px 0px #cc8400;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-weight: bold;
+            background: white;
+        }
+
+        /* スマホ用 */
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2.2rem; }
+            .catchphrase h2 { font-size: 1.6rem; }
+            .cta-button { font-size: 1.4rem; padding: 20px 30px; }
+            th, td { display: block; width: 100%; }
+            th { padding-bottom: 5px; }
+            .access-badge { font-size: 1.1rem; padding: 5px 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="recruit-badge">2026年度 新メンバー募集中!!</div>
+        <h1>亀岡市大井町で卓球しよう！<br>スマッシュ大井亀岡</h1>
+        <p>京都府亀岡市大井町・土曜朝の卓球タイム♪</p>
+        <br>
+        <div class="access-badge">🚃 JR並河駅すぐそば！🚗 駐車場あり！</div>
+    </section>
+
+    <div class="important-notice">
+        <p>📢 2026年も元気に活動中！参加希望の方は、事前にメールをお願いします！</p>
+    </div>
+
+    <section class="catchphrase">
+        <h2>「土曜の朝、みんなで卓球しませんか？」</h2>
+        <p>2026年度、新しい趣味を始めたい方も大歓迎！<br>思いきり打って、笑って、気持ちよく汗を流しましょう。</p>
+    </section>
+
+    <div class="points">
+        <div class="point-card">
+            <h3>🔰 初心者・ブランク大歓迎</h3>
+            <p>「今年から始めたい」「久しぶりに打ちたい」大募集！教室のような専門指導はありませんが、みんなでワイワイ楽しく打てる環境です♪</p>
+        </div>
+        <div class="point-card">
+            <h3>😊 世代を超えて交流</h3>
+            <p>20代からシニアまで幅広く参加！年齢を問わず、いろんな世代と一緒にラリーやゲーム練習が楽しめます。</p>
+        </div>
+        <div class="point-card">
+            <h3>👟 マイペースでOK</h3>
+            <p>自分の体調や予定に合わせて、無理なく・楽しく続けられる環境を大切にしています。</p>
+        </div>
+    </div>
+
+    <section class="content-section">
+        <div class="photo-frame">
+            <img src="image4.jpg" alt="亀岡市大井町の卓球クラブ「スマッシュ大井亀岡」の練習風景">
+        </div>
+
+        <p style="text-align: center; font-size: 1.2rem;">
+            <strong>スマッシュ大井亀岡</strong>は、亀岡市大井町周辺で活動する卓球クラブです。<br>
+            コーチはいませんが、初めての方もベテランの方も一緒になって、自由に和気あいあいと卓球を楽しんでいます！
+        </p>
+
+        <div class="info-box">
+            <h2 style="text-align: center; color: var(--secondary-color);">2026年度 練習ガイド</h2>
+            <table>
+                <tr>
+                    <th>場所</th>
+                    <td>亀岡市立大井小学校 体育館 </td>
+                </tr>
+                <tr>
+                    <th>駐車場</th>
+                    <td><strong>あり 🚗</strong><br><small>お車でのご参加も大歓迎です！</small></td>
+                </tr>
+                <tr>
+                    <th>日時</th>
+                    <td>毎週土曜日 9:00 〜 11:30</td>
+                </tr>
+                <tr>
+                    <th>参加費</th>
+                    <td>【ビジター】1回 300円<br>【入会】年会費 3,500円 ＋ 保険料</td>
+                </tr>
+                <tr>
+                    <th>対象</th>
+                    <td>卓球を楽しみたい方なら誰でも！<br><small>（初心者からベテランまで大歓迎♪）</small></td>
+                </tr>
+                <tr>
+                    <th>使用球</th>
+                    <td>ニッタク「Jトップクリーントレ球」<br><small>※日本製の高品質な練習球を使用しています！</small></td>
+                </tr>
+                <tr>
+                    <th>持ち物</th>
+                    <td>ラケット、室内シューズ、飲み物、タオル<br><small>※お持ちでない方はご相談ください</small></td>
+                </tr>
+            </table>
+
+            <div class="map-container">
+                <p style="font-size: 1.1rem; color: var(--secondary-color); margin-bottom: 5px;"><strong>📍 アクセスマップ</strong></p>
+                <p style="margin: 0 0 15px 0;"><strong>JR嵯峨野線「並河駅」すぐそば！<br>駐車場も完備しているので、お車でも安心してお越しいただけます。</strong></p>
+                <iframe src="https://maps.google.com/maps?q=亀岡市立大井小学校&hl=ja&output=embed" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2 style="font-size: 2.2rem; margin-bottom: 30px;">2026年度、卓球仲間になりませんか？</h2>
+        <a href="mailto:smash.kameoka@gmail.com" class="cta-button">メールで体験を申し込む</a>
+        <p style="margin-top: 25px;">お名前・ご連絡先・卓球歴（初心者・ブランク等）を教えてくださいね！</p>
+    </section>
+
+    <footer>
+        © スマッシュ大井亀岡 - 2026年度も楽しく卓球！
+    </footer>
+
+</body>
+</html>
