@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>スマッシュ大井亀岡 | 亀岡市大井町で卓球しよう！</title>
-    <meta name="description" content="2026年度の新メンバー募集中！京都府亀岡市大井町で活動する卓球クラブ「スマッシュ大井亀岡」です。初心者、ブランクのある方大歓迎！毎週土曜日の朝、大井小学校体育館で楽しく活動中。">
+    <title>亀岡市で卓球！スマッシュ大井亀岡 | クラブ・サークル新メンバー募集</title>
+    <meta name="description" content="亀岡市で卓球クラブ・サークルをお探しなら「スマッシュ大井亀岡」へ！大井小学校体育館で毎週土曜日に活動中。初心者やブランクのある方も大歓迎。亀岡で楽しく卓球をしたい新メンバーを募集中です。">
     
     <link rel="canonical" href="https://smash-kameoka.netlify.app/">
 
@@ -15,27 +15,34 @@
     <meta property="og:site_name" content="スマッシュ大井亀岡">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://smash-kameoka.netlify.app/">
-    <meta property="og:title" content="スマッシュ大井亀岡 | 亀岡市大井町で卓球しよう！">
-    <meta property="og:description" content="2026年度の新メンバー募集中！京都府亀岡市大井町で活動する卓球クラブです。">
+    <meta property="og:title" content="亀岡市で卓球！スマッシュ大井亀岡 | クラブ・サークル新メンバー募集">
+    <meta property="og:description" content="亀岡市で卓球クラブ・サークルをお探しなら！毎週土曜日に大井町で活動中の「スマッシュ大井亀岡」です。">
     
     <script type="application/ld+json">
     {
       "@context" : "https://schema.org",
-      "@type" : "WebSite",
+      "@type" : "SportsClub",
       "name" : "スマッシュ大井亀岡",
       "alternateName" : "Smash Ooi Kameoka",
-      "url" : "https://smash-kameoka.netlify.app/"
+      "url" : "https://smash-kameoka.netlify.app/",
+      "sport": "Table Tennis",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "亀岡市",
+        "addressRegion": "京都府",
+        "addressCountry": "JP"
+      }
     }
     </script>
 
     <style>
-        /* ポップなチラシ風：配色とタイポグラフィ */
+        /* ポップなチラシ風：配色とタイポグラフィ（変更なし） */
         :root {
-            --primary-color: #ff4757; /* 鮮やかな赤 */
-            --secondary-color: #1e90ff; /* 明るいブルー */
-            --accent-color: #ffa502; /* 元気なオレンジ */
+            --primary-color: #ff4757;
+            --secondary-color: #1e90ff;
+            --accent-color: #ffa502;
             --text-color: #2f3542;
-            --bg-color: #fffaf0; /* 温かみのあるクリーム色 */
+            --bg-color: #fffaf0;
         }
 
         body {
@@ -44,12 +51,11 @@
             padding: 0;
             background-color: var(--bg-color);
             background-image: radial-gradient(#e6e6e6 1px, transparent 1px);
-            background-size: 20px 20px; /* ドット背景でチラシ感 */
+            background-size: 20px 20px;
             color: var(--text-color);
             line-height: 1.6;
         }
 
-        /* ヘッダー：インパクト重視 */
         .hero {
             background: linear-gradient(135deg, var(--secondary-color), #004d99);
             color: white;
@@ -77,7 +83,7 @@
         .hero h1 {
             font-size: 3.2rem;
             margin: 10px 0;
-            line-height: 1.1;
+            line-height: 1.2;
             text-shadow: 4px 4px 0px var(--text-color);
         }
 
@@ -91,7 +97,6 @@
             margin-top: 15px;
         }
 
-        /* アクセスバッジ */
         .access-badge {
             display: inline-block;
             background-color: white;
@@ -105,7 +110,6 @@
             border: 3px solid var(--primary-color);
         }
 
-        /* お知らせ：マステ風 */
         .important-notice {
             background-color: var(--accent-color);
             color: #fff;
@@ -127,7 +131,6 @@
             background-color: rgba(255,255,255,0.4);
         }
 
-        /* キャッチフレーズ：巨大な吹き出し */
         .catchphrase {
             background-color: white;
             padding: 50px 20px;
@@ -151,7 +154,6 @@
             font-weight: bold;
         }
 
-        /* 3つの特徴 */
         .points {
             display: flex;
             flex-wrap: wrap;
@@ -189,7 +191,6 @@
         .point-card:nth-child(2) h3 { background-color: var(--secondary-color); }
         .point-card:nth-child(3) h3 { background-color: var(--accent-color); }
 
-        /* メインコンテンツ */
         .content-section {
             background-color: white;
             padding: 40px;
@@ -199,7 +200,6 @@
             border: 6px dashed var(--secondary-color);
         }
 
-        /* 練習風景ポラロイド風 */
         .photo-frame {
             background-color: white;
             padding: 15px 15px 60px 15px;
@@ -227,7 +227,6 @@
             letter-spacing: 2px;
         }
 
-        /* 詳細テーブル */
         .info-box {
             background-color: #f0f8ff;
             padding: 25px;
@@ -250,7 +249,6 @@
         }
         td { font-weight: bold; }
 
-        /* マップエリア */
         .map-container {
             margin-top: 25px;
             padding-top: 20px;
@@ -265,7 +263,6 @@
             border: 2px solid white;
         }
 
-        /* ボタン */
         .cta-section {
             text-align: center;
             padding: 100px 20px;
@@ -298,7 +295,6 @@
             background: white;
         }
 
-        /* スマホ用 */
         @media (max-width: 600px) {
             .hero h1 { font-size: 2.2rem; }
             .catchphrase h2 { font-size: 1.6rem; }
@@ -313,39 +309,39 @@
 
     <section class="hero">
         <div class="recruit-badge">2026年度 新メンバー募集中!!</div>
-        <h1>亀岡市大井町で卓球しよう！<br>スマッシュ大井亀岡</h1>
-        <p>京都府亀岡市大井町・土曜朝の卓球タイム♪</p>
+        <h1>亀岡市で卓球を楽しむなら！<br>スマッシュ大井亀岡</h1>
+        <p>京都府亀岡市大井町・土曜朝の卓球サークル♪</p>
         <br>
-        <div class="access-badge">$D83D$DE83 JR並河駅すぐそば！$D83D$DE97 駐車場あり！</div>
+        <div class="access-badge">?? JR並河駅すぐそば！?? 駐車場あり！</div>
     </section>
 
     <div class="important-notice">
-        <p>$D83D$DCE2 2026年も元気に活動中！参加希望の方は、事前にメールをお願いします！</p>
+        <p>?? 2026年も元気に活動中！参加希望の方は、事前にメールをお願いします！</p>
     </div>
 
     <section class="catchphrase">
-        <h2>「土曜の朝、みんなで卓球しませんか？」</h2>
-        <p>2026年度、新しい趣味を始めたい方も大歓迎！<br>思いきり打って、笑って、気持ちよく汗を流しましょう。</p>
+        <h2>「亀岡で、土曜の朝に卓球しませんか？」</h2>
+        <p>亀岡市内で新しい趣味を始めたい方や卓球サークルをお探しの方、大歓迎！<br>思いきり打って、笑って、気持ちよく汗を流しましょう。</p>
     </section>
 
     <div class="points">
         <div class="point-card">
-            <h3>$D83D$DD30 初心者・ブランク大歓迎</h3>
+            <h3>?? 初心者・ブランク大歓迎</h3>
             <p>「今年から始めたい」「久しぶりに打ちたい」大募集！教室のような専門指導はありませんが、みんなでワイワイ楽しく打てる環境です♪</p>
         </div>
         <div class="point-card">
-            <h3>$D83D$DE0A 世代を超えて交流</h3>
+            <h3>?? 世代を超えて交流</h3>
             <p>20代からシニアまで幅広く参加！年齢を問わず、いろんな世代と一緒にラリーやゲーム練習が楽しめます。</p>
         </div>
         <div class="point-card">
-            <h3>$D83D$DC5F マイペースでOK</h3>
+            <h3>?? マイペースでOK</h3>
             <p>自分の体調や予定に合わせて、無理なく・楽しく続けられる環境を大切にしています。</p>
         </div>
     </div>
 
     <section class="content-section">
         <div class="photo-frame">
-            <img src="image4.jpg" alt="亀岡市大井町の卓球クラブ「スマッシュ大井亀岡」の練習風景">
+            <img src="image4.jpg" alt="亀岡市の卓球サークル「スマッシュ大井亀岡」の練習風景">
         </div>
 
         <p style="text-align: center; font-size: 1.2rem;">
@@ -362,11 +358,11 @@
                 </tr>
                 <tr>
                     <th>駐車場</th>
-                    <td><strong>あり $D83D$DE97</strong><br><small>お車でのご参加も大歓迎です！</small></td>
+                    <td><strong>あり ??</strong><br><small>お車でのご参加も大歓迎です！</small></td>
                 </tr>
                 <tr>
                     <th>日時</th>
-                    <td>毎週土曜日 9:00 $301C 11:30</td>
+                    <td>毎週土曜日 9:00 ? 11:30</td>
                 </tr>
                 <tr>
                     <th>参加費</th>
@@ -387,7 +383,7 @@
             </table>
 
             <div class="map-container">
-                <p style="font-size: 1.1rem; color: var(--secondary-color); margin-bottom: 5px;"><strong>$D83D$DCCD アクセスマップ</strong></p>
+                <p style="font-size: 1.1rem; color: var(--secondary-color); margin-bottom: 5px;"><strong>?? アクセスマップ</strong></p>
                 <p style="margin: 0 0 15px 0;"><strong>JR嵯峨野線「並河駅」すぐそば！<br>駐車場も完備しているので、お車でも安心してお越しいただけます。</strong></p>
                 <iframe src="https://maps.google.com/maps?q=亀岡市立大井小学校&hl=ja&output=embed" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
@@ -396,13 +392,13 @@
     </section>
 
     <section class="cta-section">
-        <h2 style="font-size: 2.2rem; margin-bottom: 30px;">2026年度、卓球仲間になりませんか？</h2>
+        <h2 style="font-size: 2.2rem; margin-bottom: 30px;">亀岡市で卓球仲間になりませんか？</h2>
         <a href="mailto:smash.kameoka@gmail.com" class="cta-button">メールで体験を申し込む</a>
         <p style="margin-top: 25px;">お名前・ご連絡先・卓球歴（初心者・ブランク等）を教えてくださいね！</p>
     </section>
 
     <footer>
-        $00A9 スマッシュ大井亀岡 - 2026年度も楽しく卓球！
+        c スマッシュ大井亀岡 - 亀岡市で楽しく卓球！
     </footer>
 
 </body>
